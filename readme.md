@@ -38,3 +38,19 @@ Finally, you can execute your `js` file running:
 ```
 node <filename>.js
 ```
+
+You can specify how your typescript will be executed. For example, I want to execute different from default, and transpile it through ES6:
+
+```
+tsc -t ES6 -w hello.ts
+```
+
+We can define it from a configuration file. To init it, just run:
+
+```
+tsc --init
+```
+
+This will create a `tsconfig.json` file which tells typescript how to execute `ts` commands.
+
+Now, just run `tsc -w` and typescript will watch and transpile every single `ts` file on your project.
