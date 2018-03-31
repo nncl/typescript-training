@@ -32,3 +32,9 @@ It's gonna print something like:
 00:38:11 - Starting compilation in watch mode...
 00:38:14 - Compilation complete. Watching for file changes.
 ```
+
+Finally, you can execute your `js` file running:
+
+```
+node <filename>.js
+```
